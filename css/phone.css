@@ -1,0 +1,70 @@
+
+
+
+
+
+.boxes
+{
+    flex-direction: column;
+    overflow: hidden;
+}
+.box img{
+    width: 275px;
+    height: 187px;
+}
+#nav
+{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.h-primary
+{
+    font-size: 1.3rem;
+}
+.p-primary
+{
+    font-size: 1rem;
+}
+.h-secondary
+{
+    font-size: 2rem;
+}
+#HOME
+{
+    padding: 0px 50px;
+    overflow: hidden;
+   
+}
+#HOME h2
+{
+    margin-top: 100px;
+}
+
+#logo-group
+{
+    flex-direction: column;
+    overflow: hidden;
+}
+#logo-group img{
+    height: 130px;
+    padding: 11px 13px;
+    margin: 7px 8px;
+}
+#contact-form
+{
+    margin-right: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+   
+}
+#contact-box label
+{
+    font-size: 1rem;
+}
+.sponser
+{
+    overflow: hidden;
+}
