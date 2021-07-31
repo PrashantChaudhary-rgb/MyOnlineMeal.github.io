@@ -13,6 +13,7 @@
     width: 100%;
     top: 0px;
     left: 0px;
+    overflow: hidden;
     
 }
 #nav::before
@@ -24,6 +25,7 @@
     left: 0px;
     z-index: -1;
     opacity: 0.6;
+    overflow: hidden;
 
     width: 100%;
     height: 100%;
@@ -36,12 +38,14 @@
     height: 60px;
     align-items: center;
     margin: 4px 8px;
+    overflow: hidden;
     
    
 }
 #logobox img{
     width: 60px;
     height: 60px;
+    overflow: hidden;
     
 }
 ul{
@@ -76,6 +80,7 @@ ul li a:hover
     align-items: center;
     padding: 0px 150px;
     height: 535px;
+    overflow: hidden;
    
 }
 
@@ -86,6 +91,7 @@ ul li a:hover
     position: absolute;
     z-index: -1;
     opacity: 0.4;
+    overflow: hidden;
 
     width: 100%;
     height: 100%;
@@ -128,6 +134,7 @@ ul li a:hover
 .boxes
 {
     display: flex;
+    overflow: hidden;
     
 }
 .box
@@ -173,6 +180,7 @@ ul li a:hover
     justify-content: center;
     align-items: center;
     overflow: hidden;
+   
 
 }
 #logo-group
@@ -210,6 +218,7 @@ margin: 30px 8px;
     justify-content: center;
     position: relative;
     box-shadow: -12px -12px 19px #9dec9d;
+    overflow: hidden;
 }
 
 #contact-box::before
@@ -271,6 +280,8 @@ width: 300px;
     width: 100%;
     height: 100%;
     z-index: -1;
+    overflow: hidden;
+
     
     opacity: 0.8;
 }
